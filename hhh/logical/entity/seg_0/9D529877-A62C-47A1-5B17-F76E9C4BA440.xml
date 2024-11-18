@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9D529877-A62C-47A1-5B17-F76E9C4BA440" name="User">
+<createdBy>demet</createdBy>
+<createdTime>2024-11-17 23:14:04 UTC</createdTime>
+<ownerDesignName>hhh</ownerDesignName>
+<engineerTo>
+<item key="ADD326C5-ABF8-6FF6-536A-3E62A0A93127" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="User_Id" id="1143985E-5EB1-CA84-7734-1866D981EB1F">
+<createdBy>demet</createdBy>
+<createdTime>2024-11-17 23:14:09 UTC</createdTime>
+<ownerDesignName>hhh</ownerDesignName>
+<engineerTo>
+<item key="ADD326C5-ABF8-6FF6-536A-3E62A0A93127" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Username" id="852215CE-B4F1-D50F-C34A-8FDD2F1E2669">
+<createdBy>demet</createdBy>
+<createdTime>2024-11-17 23:14:24 UTC</createdTime>
+<ownerDesignName>hhh</ownerDesignName>
+<engineerTo>
+<item key="ADD326C5-ABF8-6FF6-536A-3E62A0A93127" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="418EFB31-71E3-AE8B-1B4C-4A9C64C05893" name="User PK">
+<createdBy>demet</createdBy>
+<createdTime>2024-11-17 23:14:23 UTC</createdTime>
+<ownerDesignName>hhh</ownerDesignName>
+<engineerTo>
+<item key="ADD326C5-ABF8-6FF6-536A-3E62A0A93127" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1143985E-5EB1-CA84-7734-1866D981EB1F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

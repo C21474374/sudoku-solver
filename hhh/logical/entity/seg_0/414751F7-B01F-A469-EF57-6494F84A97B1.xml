@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="414751F7-B01F-A469-EF57-6494F84A97B1" name="SelectedParts">
+<createdBy>demet</createdBy>
+<createdTime>2024-11-17 23:07:05 UTC</createdTime>
+<ownerDesignName>hhh</ownerDesignName>
+<engineerTo>
+<item key="ADD326C5-ABF8-6FF6-536A-3E62A0A93127" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Part_Id" id="CABB1E4B-6DD5-4685-4B60-20BE7521EE34">
+<createdBy>demet</createdBy>
+<createdTime>2024-11-17 23:07:27 UTC</createdTime>
+<ownerDesignName>hhh</ownerDesignName>
+<engineerTo>
+<item key="ADD326C5-ABF8-6FF6-536A-3E62A0A93127" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="49BEC1B0-A0A2-D420-6ADA-813DAE525BFD">
+<createdBy>demet</createdBy>
+<createdTime>2024-11-17 23:07:43 UTC</createdTime>
+<ownerDesignName>hhh</ownerDesignName>
+<engineerTo>
+<item key="ADD326C5-ABF8-6FF6-536A-3E62A0A93127" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cost" id="557502B0-5A36-A460-81B7-9863BDE5C65E">
+<createdBy>demet</createdBy>
+<createdTime>2024-11-17 23:07:54 UTC</createdTime>
+<ownerDesignName>hhh</ownerDesignName>
+<engineerTo>
+<item key="ADD326C5-ABF8-6FF6-536A-3E62A0A93127" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="F67F55FA-0E27-5F26-F0EE-05410FFDC7A7">
+<createdBy>demet</createdBy>
+<createdTime>2024-11-17 23:08:06 UTC</createdTime>
+<ownerDesignName>hhh</ownerDesignName>
+<engineerTo>
+<item key="ADD326C5-ABF8-6FF6-536A-3E62A0A93127" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Build_Id" id="60B118E7-8316-F7B1-1318-CC8F4F914C6A">
+<createdBy>demet</createdBy>
+<createdTime>2024-11-17 23:13:43 UTC</createdTime>
+<generatorID>961E569E-B20E-67F4-8D10-C5CC934F2E2B</generatorID>
+<ownerDesignName>hhh</ownerDesignName>
+<engineerTo>
+<item key="ADD326C5-ABF8-6FF6-536A-3E62A0A93127" value="true"/>
+</engineerTo>
+<referedAttribute>2A23DDD1-C10C-22A5-76DC-EAE23F5B9267</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0D0B205F-9F3E-650E-7ED3-CC4AFA4D922C" name="SelectedParts PK">
+<createdBy>demet</createdBy>
+<createdTime>2024-11-17 23:07:37 UTC</createdTime>
+<ownerDesignName>hhh</ownerDesignName>
+<engineerTo>
+<item key="ADD326C5-ABF8-6FF6-536A-3E62A0A93127" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CABB1E4B-6DD5-4685-4B60-20BE7521EE34</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
